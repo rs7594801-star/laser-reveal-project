@@ -55,7 +55,7 @@ export default function App() {
       {/* 2. The Reveal Image Layer in App.jsx */}
 <img
   ref={revealImgRef}
-  src="/Bg6.jpg" 
+  src="/cover.jpg" 
   alt="Reveal effect"
   style={{
     position: 'absolute',
@@ -67,7 +67,7 @@ export default function App() {
     objectFit: 'contain', 
     zIndex: 5, 
     mixBlendMode: 'lighten',
-    opacity: 1.0, 
+    opacity: 0.9, 
     pointerEvents: 'none', 
     '--mx': '-9999px',
     '--my': '-9999px',
